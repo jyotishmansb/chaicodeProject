@@ -1,0 +1,68 @@
+nav {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 0 3rem;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
+
+.logo {
+    width: 15rem;
+    color: orange;
+    transition: transform 0.5s ease;
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.5rem;
+    border: 1px solid rgb(198, 129, 0);
+    padding: 1.5rem;
+    border-radius: 30px 0px 30px 0px;
+
+}
+
+.nav-center li a {
+    color: orange;
+}
+li{
+    transition: all .3s ease;
+}
+li:hover{
+    transform: scale(1.2); 
+
+}
+
+
+.login-btn {
+    border: 1px solid orange;
+    border-radius: 2.5rem;
+    padding: 1.5rem;
+    border-radius: 20px 0px 20px 0px;
+    background: transparent;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    border: 1px solid black;
+    font-size: 2rem;
+    font-weight: bold;
+
+   
+    /* inset: 0 4px 6px -2px rgba(255, 0, 0, 0.35); */
+
+    transition: transform 0.18s ease;
+}
+
+.login-btn:hover , .logo:hover{
+    transform: scale(1.1);
+
+}

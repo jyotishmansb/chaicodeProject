@@ -1,0 +1,69 @@
+.community-container {
+    width: 80%;
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+
+}
+
+.community-wrapper {
+    display: flex;
+    justify-content: start;
+    gap: 5rem;
+
+}
+
+.community-heading {
+
+    color: orange;
+    text-align: center;
+
+}
+
+.community-heading h1 {
+    font-size: 8rem;
+
+}
+
+/* .community-right {
+    border: 1px solid red;
+} */
+
+.community-image {
+    width: 45rem;
+    height: 40rem;
+    border: 1px solid rgb(10, 255, 190);
+    border-radius: 60px 0 60px 0;
+    overflow: hidden;
+}
+
+.community-left {
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 3rem;
+}
+
+.community-text p {
+    font-size: 5rem;
+    color: white;
+}
+
+.community-right {
+    padding: 1rem;
+}
+
+
+.discord-box {
+    /* margin: 0 auto; */
+    /* margin-top: 1rem; */
+
+    border: 1px solid orange;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    color: orange;
+    text-align: center;
+    line-height: 1.3;
+}

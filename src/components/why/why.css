@@ -1,0 +1,74 @@
+
+.why-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    justify-content: center;
+    width: 80%;
+    
+}
+.why-wrapper{
+    display: flex;
+    gap: 3rem;
+    color: white;
+    
+}
+.why-wrapper .left , .why-wrapper .right{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.why-wrapper .left .box , .why-wrapper .right .box{
+border: 1px solid orange;
+padding: 2rem;
+border-radius: 50px 0 50px 0;
+}
+.why-wrapper .left .box h1 , .why-wrapper .right .box h1{
+    font-size: 2.3rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.why-wrapper .left .box p , .why-wrapper .right .box p{
+    font-size: 1.5rem;
+}
+
+.why-wrapper .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    border: 1px solid orange;
+    padding: 1rem 1rem;
+
+border-radius: 15px;
+}
+.why-wrapper .center .name h1{
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Gabriela", sans-serif;
+}
+.why-wrapper .center .name p{
+    font-size: 1.8rem;
+    font-family: "Roboto", sans-serif;
+    
+}
+.why-wrapper .center .approach h1{
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.why-wrapper .center .approach p{
+    font-size: 2rem;
+}
+
+.why-wrapper .center .image{
+
+width:60%
+}
+.why-wrapper .center .image img{
+    object-fit: contain;
+}

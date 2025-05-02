@@ -1,0 +1,41 @@
+.section-benefit-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+   
+}
+
+
+
+.almuni-network-box {
+    margin-top: 8rem;
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+    border: 1px solid orange;
+    border-radius: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.almuni-network-box .image{
+    width: 70rem;
+    height: 30rem;
+}
+
+
+.almuni-network-box-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+   padding: 2rem;
+}
+.almuni-title{
+    font-size: 3.5rem;
+    color:orange;
+}
+.almuni-para1, .almuni-para2{
+    font-size: 2rem;
+    line-height: 1.2;
+    color: white;
+}

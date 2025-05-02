@@ -1,0 +1,36 @@
+.collaborate-container{
+width: 80%;
+display: grid;
+grid-template-columns: 45% 45%;
+gap: 5%;
+}
+.collaborate-left, .collaborate-right{
+    border: 1px solid orange;
+    border-radius: 30px;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.collaborate-left .text h1, .collaborate-right .text h1{
+    font-size: 4rem;
+}
+.text p{
+    font-size: 2rem;
+}
+.collaborate-left .text , .collaborate-right .text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+
+.image{
+    width: 25rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    
+}

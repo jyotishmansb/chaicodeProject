@@ -1,0 +1,106 @@
+.cohortsCard-container {
+    width: 35rem;
+    height: 45rem;
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 20px;
+    color: white;
+
+    background-color: rgb(17, 17, 17);
+    border-radius: 50px 0px 50px 0px;
+}
+
+.react-player-wrapper {
+    height: 20rem;
+    border-radius: 50px 0px 00px 0px;
+    overflow: hidden;
+}
+
+.cohortsCard-text {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    padding: 0 1rem;
+}
+
+.cohort-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1rem;
+    color: orange;
+}
+
+.cohort-description p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+
+.cohort-date-duration {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+   margin-top: 1rem;
+    gap: 5rem;
+
+}
+.start-date , .duration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
+}
+
+.cohort-date-duration .start-date,
+.duration {
+    font-size: 1.2rem;
+}
+
+.cohortsCard-text .topics {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.4rem;
+}
+
+.cohort-price {
+    display: flex;
+    align-items: center;
+ 
+    gap: 1rem;
+    margin-top: 3.5rem;
+
+
+}
+
+.cohort-price .price {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.cohort-price .old-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+   text-decoration: line-through;
+   color: rgb(110, 110, 110);
+}
+
+.cta-btn-buy-now {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 10px;
+    padding: 1rem;
+    background: transparent;
+    background-color: rgb(13, 13, 13);
+    cursor: pointer;
+    border-radius: 0px 0px 50px 0px;
+}

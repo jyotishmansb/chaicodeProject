@@ -1,0 +1,81 @@
+.container-appdownload{
+    width: 80%;
+
+}
+.appdownload-wrapper{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin: 0 auto;
+    gap: 10%;
+
+    
+
+}
+.appdownload-left{
+   display: grid;
+   place-items: center;
+
+    
+}
+
+.mobile{
+    width: 28rem;
+    height: 50rem;
+    border: 1px solid rgb(67, 67, 67);
+    border-radius: 20px;
+}
+
+
+
+
+.appdownload-right{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.appdownload-right .heading h2{
+    color: orange;
+    font-size: 4rem;
+}
+.appdownload-right .desc p{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+}
+.feature-item{
+    display: flex;
+    gap: 1rem;
+    
+}
+.feature-item>div{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;  
+}
+
+.download-buttons{
+    display: flex;
+    gap: 2rem;
+    }
+
+    .download-button{
+        display: flex;
+      gap: 5px;
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        background-color: orange;
+        cursor: pointer;
+        
+    }
+.button-small{
+    font-size: 1.4rem;
+}
+    .button-large{
+        font-size: 2rem;
+    }

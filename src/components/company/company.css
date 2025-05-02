@@ -1,0 +1,13 @@
+.company-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.company-wrapper{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 3rem;
+}
+.company-logo{
+    width: 20rem;
+}

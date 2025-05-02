@@ -1,0 +1,15 @@
+
+
+
+.cohorts-section-container{
+   
+   width: 80%;
+   
+  
+}
+.cohorts-wrapper{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}

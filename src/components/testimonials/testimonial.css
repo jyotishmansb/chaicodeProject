@@ -1,0 +1,21 @@
+.testimonial-container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    width: 90%;
+   
+}
+.testimonial-wrapper{
+   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+    justify-content: center;
+
+}
+
+.testimonial-container .cta-btn-join{
+    margin-top: 20rem;
+  
+}

@@ -1,0 +1,45 @@
+.container-freeApi {
+    width: 80%;
+}
+
+
+.freeApi-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+    gap: 2rem;
+}
+
+.freeApi-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.freeApi-left .heading h2 {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.freeApi-left .para p {
+    color: white;
+    font-size: 2rem;
+}
+
+.freeApi-right .ytVideo-container {
+    width: 65rem;
+    height: 45rem;
+}
+.freeApi-btn{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 7rem;
+    border: 1px solid orange;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    color: orange;
+    text-align: center;
+}

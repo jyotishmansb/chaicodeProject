@@ -1,0 +1,40 @@
+.section-tweet {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.tweet-section-container {
+    width: 80%;
+    display: grid;
+    place-items: center;
+
+}
+
+.tweet-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+
+}
+
+.tweet-heading h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.tweet-heading p {
+    font-size: 2rem;
+}
+
+.tweet-box {
+    width: 30px;
+    height: 45px;
+    overflow: hidden;
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 50px 0px 50px 0px;
+}
