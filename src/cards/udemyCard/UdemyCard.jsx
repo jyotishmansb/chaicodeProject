@@ -1,7 +1,7 @@
 import React from 'react'
-import udemyPic from '../../assets/images/udemy.jpg'
+import uimage from '../../assets/images/udemy.jpg'
 
-const UdemyCard = ({image,rating}) => {
+const UdemyCard = () => {
   return (
     <div className="udemy-course-wrapper">
                     <div className="text">
@@ -9,12 +9,12 @@ const UdemyCard = ({image,rating}) => {
                         <div className="course-desc"><p>Only web development course that you will need.
                             Covers HTML, CSS, Tailwind, Node, React, MongoDB, Prisma, Deployment etc</p></div>
                    <div className="rating-box"> 
-                   <div className="rating">{rating}</div>
+                   <div className="rating">4.7 Stars</div>
                    </div>
                    
                     </div>
                     <div className="image">
-                        <img src={image} alt="" />
+                        <img src={uimage} alt="" />
                     </div>
                 </div>
 

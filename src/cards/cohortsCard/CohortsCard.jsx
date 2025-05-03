@@ -1,9 +1,9 @@
 import ReactPlayer from "react-player";
-import './cohortsCard.css'
+import './cohortsCard.css';
 import { SlCalender } from "react-icons/sl";
 import { MdAccessTime } from "react-icons/md";
 
-const CohortsCard = ({youtubeUrl,title,desc,date, duration, price, oldPrice}) => {
+const CohortsCard = ({ youtubeUrl, title, desc, date, duration, price, oldPrice }) => {
     return (
         <div className="cohortsCard-container">
 
@@ -12,18 +12,18 @@ const CohortsCard = ({youtubeUrl,title,desc,date, duration, price, oldPrice}) =>
                     url={youtubeUrl}
 
 
-                    playing={false}       
-                    muted={false}          
-                    controls={false}     
+                    playing={false}
+                    muted={false}
+                    controls={false}
                     width="100%"
                     height="100%"
-                    playsinline          
+                    playsinline
 
                     config={{
                         youtube: {
                             playerVars: {
                                 modestbranding: 1,
-                                rel: 0        
+                                rel: 0
                             }
                         }
                     }}
@@ -40,7 +40,7 @@ const CohortsCard = ({youtubeUrl,title,desc,date, duration, price, oldPrice}) =>
                     <div className="start-date"><SlCalender /><p>starts {date}</p></div>
                     <div className="duration"> <MdAccessTime />{duration}</div>
                 </div>
-               
+
 
                 <div className="cohort-price">
                     <div className="price"><span>₹</span><p>{price}</p></div>

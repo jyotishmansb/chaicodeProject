@@ -43,3 +43,30 @@
     color: orange;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .freeApi-wrapper{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .freeApi-right .ytVideo-container {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .freeApi-left .heading h2 {
+        font-size: 1.6rem;
+    }
+    .freeApi-left .para p {
+        
+        font-size: 1.5rem;
+    }
+    .freeApi-btn{
+        margin-top: 1rem;
+    }
+
+    .freeApi-left{
+        gap: 1.5rem;
+    }
+}

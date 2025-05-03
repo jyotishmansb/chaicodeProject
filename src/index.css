@@ -4,12 +4,15 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+
 }
 
 html {
   font-size: 62.5%; /* Makes 1rem = 10px */
 }
 body{
+  
+
   background: linear-gradient(45deg, #000000, #130f0c, #000000,
          #0a0806, #160e0e, #000000, #000000);
 }
@@ -19,7 +22,6 @@ p{
 section{
   width: 100%;
   margin: 0 auto;
-  /* padding: 4rem 2rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,4 +66,40 @@ img{
 
 .cta-btn-join:hover{
   transform: scale(1.1);
+}
+
+.divider {
+  height: 1px;
+   margin: 8rem 8rem;
+  background: linear-gradient(to right,
+      transparent,
+      #ff920c 25%,
+      #ffbf00 75%,
+      transparent);
+}
+
+@media (max-width: 768px) {
+  .section-heading{
+    margin-bottom: 2rem;
+   
+  }
+  .section-heading h1{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+   
+  }
+  .section-heading p{
+    font-size: 1rem;
+  
+  }
+
+  .divider{
+    margin: 3rem 2rem;
+  }
+
+  .cta-btn-join{
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+  }
 }

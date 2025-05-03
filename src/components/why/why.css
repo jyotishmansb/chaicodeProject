@@ -72,3 +72,36 @@ width:60%
 .why-wrapper .center .image img{
     object-fit: contain;
 }
+
+
+@media (max-width: 768px){
+    .why-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: 1rem;
+    }
+
+    .why-wrapper .left , .why-wrapper .right{
+        gap: 2rem;
+    }
+
+    .why-wrapper .left .box , .why-wrapper .right .box{
+        padding: 1rem;
+    }
+
+    .why-wrapper .left .box h1 , .why-wrapper .right .box h1{
+font-size: 1.8rem;
+    }
+
+
+    .why-wrapper .center .approach h1{
+        font-size: 2rem;
+    }
+
+
+    .why-wrapper .center .name h1{
+        font-size: 2rem;
+    }
+
+}

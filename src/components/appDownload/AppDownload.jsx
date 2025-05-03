@@ -15,9 +15,6 @@ const AppDownload = () => {
 
 
 
-
-
-
                     <div className="appdownload-right">
                         <div className="heading"><h2>Learn On the Go</h2></div>
                         <div className="desc"><p>Take your coding journey anywhere

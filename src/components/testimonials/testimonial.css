@@ -12,10 +12,40 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
     justify-content: center;
-
 }
 
 .testimonial-container .cta-btn-join{
     margin-top: 20rem;
   
+}
+
+
+@media (max-width: 768px) {
+    .testimonial-wrapper{
+   width: 100%;
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 1.2rem;
+        place-items: center;
+        justify-content: center;
+    }
+    .testimonial-container .cta-btn-join{
+        margin-top: 2rem;
+      
+    }
+    .testimonial-container .section-heading{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .testimonial-container .section-heading h1{
+       
+        font-size: 1.5rem;
+       
+      
+    }
+
+    .testimonial-container .section-heading p{
+        font-size: .8rem;
+    }
+
 }

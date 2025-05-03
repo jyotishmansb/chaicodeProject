@@ -1,86 +1,35 @@
-.section-ytVideo {
-    width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
-    /* padding: 4rem 2rem; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background: linear-gradient(45deg, #000000, #130f0c, #000000,
-    #0a0806, #160e0e, #000000, #000000); */
-
-}
-
 .ytVideo-container {
-    position: relative;
-    width: 800px;
-    height: 450px;
-    border-radius: 50px 0px 50px 0px;
-    overflow: hidden;   /* <- clips the child */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  width: 800px;
+  height: 450px;
+  border-radius: 50px 0px 50px 0px;
+  overflow: hidden;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    border: 1px solid rgb(72, 72, 72);
+  border: 1px solid rgb(72, 72, 72);
 
 }
-.react-player{
-    border-radius: 20px;
+
+.react-player {
+  border-radius: 20px;
 }
 
-.divider{
-   
-                   /* remove default */
-    height: 1px;                   /* line thickness */
-    margin: 8rem 8rem;                /* space around it */
-    background: linear-gradient(
-      to right,
-      transparent,
-      #ff920c 25%,
-      #ffbf00 75%,
-      transparent
-    );
+.player-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+  .ytVideo-container {
+    width: 95%;
+    height: 200px;
   }
-  
-  .glass-border {
-    position: absolute;
-    top: -15px;
-    left: -15px;
-    right: -15px;
-    bottom: -15px;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    z-index: 0;
-    overflow: hidden;
-  }
-  
-  /* Glass reflection effect */
-  .glass-border::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 100%;
-    background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.2),
-      rgba(255, 255, 255, 0.05)
-    );
-    transform: rotate(-5deg);
-    pointer-events: none;
-  }
-  
-  /* Player wrapper */
-  .player-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-    overflow: hidden;
-    z-index: 1;
-  }
-  
+}

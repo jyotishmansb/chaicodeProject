@@ -19,7 +19,7 @@ import Collaborate from "../../components/collaborate/Collaborate";
 const Home = () => {
     return (
         <div className="home">
-            <Navbar />
+
             <Hero />
             <YtVideo />
             <div className="divider"></div>
@@ -47,10 +47,10 @@ const Home = () => {
 
             <AppDownload />
             <div className="divider"></div>
-<Collaborate/>
-<div className="divider"></div>
+            <Collaborate />
+            <div className="divider"></div>
 
-            <Footer />
+
 
 
 

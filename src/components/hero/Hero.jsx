@@ -23,11 +23,11 @@ const Hero = () => {
 
 
                 <div className="feature-box">
-                    <div className="feature">< GrGroup fontSize={24} /> <p>Peer Learning</p>    </div>
-                    <div className="feature"> <FaCode fontSize={24}/> <p>Code Reviews</p></div>
-                    <div className="feature"><MdOutlineVideoCameraFront fontSize={24}/><p>Virtual Hostel</p></div>
-                    <div className="feature"><FaRegComments fontSize={24}/><p>Doubt Sessions</p></div>
-                    <div className="feature"><RiMoneyRupeeCircleLine fontSize={24} /><p>Bounties</p></div>
+                    <div className="feature">< GrGroup  className='icon'/> <p>Peer Learning</p>    </div>
+                    <div className="feature"> <FaCode className='icon'/> <p>Code Reviews</p></div>
+                    <div className="feature"><MdOutlineVideoCameraFront fontSize={24} className='icon'/><p>Virtual Hostel</p></div>
+                    <div className="feature"><FaRegComments  className='icon'/><p>Doubt Sessions</p></div>
+                    <div className="feature"><RiMoneyRupeeCircleLine className='icon' /><p>Bounties</p></div>
                 </div>
 
 

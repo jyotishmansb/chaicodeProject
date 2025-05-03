@@ -11,7 +11,7 @@
 
 .react-player-wrapper {
     height: 20rem;
-    border-radius: 50px 0px 00px 0px;
+    border-radius: 50px 0px 50px 0px;
     overflow: hidden;
 }
 
@@ -39,11 +39,17 @@
 .cohort-date-duration {
     display: flex;
     font-family: "Roboto", sans-serif;
-   margin-top: 1rem;
+    margin-top: 1rem;
     gap: 5rem;
 
 }
-.start-date , .duration{
+
+.start-date p {
+    margin: 0;
+}
+
+.start-date,
+.duration {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,18 +62,14 @@
     font-size: 1.2rem;
 }
 
-.cohortsCard-text .topics {
-    display: flex;
-    gap: 1rem;
-    font-size: 1.4rem;
-}
+
 
 .cohort-price {
     display: flex;
     align-items: center;
- 
+
     gap: 1rem;
-    margin-top: 3.5rem;
+    margin-top: 2rem;
 
 
 }
@@ -80,17 +82,22 @@
     font-size: 3rem;
 }
 
-.cohort-price .old-price{
+.cohort-price .price p,
+.cohort-price .old-price p {
+    margin: 0;
+}
+
+.cohort-price .old-price {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-   text-decoration: line-through;
-   color: rgb(110, 110, 110);
+    text-decoration: line-through;
+    color: rgb(110, 110, 110);
 }
 
 .cta-btn-buy-now {
-   
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,4 +110,52 @@
     background-color: rgb(13, 13, 13);
     cursor: pointer;
     border-radius: 0px 0px 50px 0px;
+}
+
+@media (max-width: 768px){
+
+    .cohortsCard-container{
+        width:90%;
+        height: 35rem;
+        border-radius: 25px 0px 25px 0px;
+    }
+
+    .react-player-wrapper{
+        width: 100%;
+        border-radius: 25px 0px 25px 0px;
+height: 15rem;
+    }
+    .cohortsCard-text{
+        gap: .5rem;
+    }
+
+    .cohort-title{
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+.cohort-description p{
+    font-size: 1.2rem;
+}
+    .cohort-price .price{
+        font-size: 2rem;
+    }
+
+    .cohort-date-duration{
+        margin-top: 0;
+    }
+
+    .cohort-price .old-price {
+        font-size: 1.5rem;
+    }
+
+    .cta-btn-buy-now {
+
+       margin-top: 1rem;
+        font-size: 2rem;
+       
+        padding: .5rem;
+        
+        border-radius: 0px 0px 30px 0px;
+    }
+
 }

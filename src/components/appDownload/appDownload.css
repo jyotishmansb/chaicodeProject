@@ -8,8 +8,6 @@
     margin: 0 auto;
     gap: 10%;
 
-    
-
 }
 .appdownload-left{
    display: grid;
@@ -78,4 +76,32 @@
 }
     .button-large{
         font-size: 2rem;
+    }
+
+
+    @media (max-width: 768px) {
+        .appdownload-wrapper{
+          
+          grid-template-columns: 1fr;
+            margin: 0 auto;
+            gap: 1rem;
+        
+        }
+
+        .download-buttons{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            }
+        
+            .appdownload-right .heading h2{
+                font-size: 2rem;
+                text-align: center;
+            }
+            .appdownload-right .desc p{
+                font-size: 1.2rem;
+            }
+
     }
