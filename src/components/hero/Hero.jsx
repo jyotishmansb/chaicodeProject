@@ -14,12 +14,12 @@ const Hero = () => {
 
                 <div className="trust-box">
                     <div className="trust-text">Trusted by 1.5M Code Learners</div>
-                 
+
                 </div>
-                <div className="header-text"><h1>Consistency & Community</h1></div>
-                <div className="subtext"><h2>Unmatched Learning Experience for coding courses</h2></div>
-                <div className="desc"><p>Content is everywhere, but we provide a learning experience that is unmatched <br /> bounties, peer learning, code reviews,
-                    virtual hostel, alumni network, doubt sessions, and group projects</p></div>
+                <h1 className="header-text">Consistency & Community</h1>
+                <h2 className="subtext">Unmatched Learning Experience for coding courses</h2>
+                <p className="desc">Content is everywhere, but we provide a learning experience that is unmatched <br /> bounties, peer learning, code reviews,
+                    virtual hostel, alumni network, doubt sessions, and group projects</p>
 
 
                 <div className="feature-box">
@@ -35,10 +35,10 @@ const Hero = () => {
                 <button className="cta-btn">
                     <a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17">
 
-                    <div class="live-blinker"></div>  Check all Live Cohorts < FaArrowRight className='arrow' /> 
-                      
-                           
-                            
+                        <div class="live-blinker"></div>  Check all Live Cohorts < FaArrowRight className='arrow' />
+
+
+
 
                     </a>
                 </button>
