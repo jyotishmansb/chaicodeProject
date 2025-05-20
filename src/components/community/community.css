@@ -104,16 +104,24 @@
 
 }
 
-.discord-box {
-   
-    padding: 1rem 1rem ;
+ .community-left .discord-box {
+   border: 1px solid orange;
+    padding: 0rem 1rem ;
     border-radius: 15px;
     font-size: 1.5rem;
    display: flex;
    align-items: center;
    justify-content: center;
-    text-align: center;
+  
+    transition: all .5s ease;
+   
     
 }
+.community-left .discord-box:hover{
+
+    background-color: red;
+    
+}
+
 
 }

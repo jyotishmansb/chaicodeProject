@@ -69,7 +69,17 @@
         border-radius: 10px;
         background-color: orange;
         cursor: pointer;
+        transition: all .5s ease;
         
+    }
+    .download-button:hover{
+        transform: translateY(-5px);
+    }
+    .download-button a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
     }
 .button-small{
     font-size: 1.4rem;

@@ -4,7 +4,7 @@ import { tweet } from '../../data/tweet';
 
 const Testimonial = () => {
     return (
-        <section className='section-testimonial'>
+        <section id='reviews' className='section-testimonial'>
             <div className="testimonial-container">
                 <div className="section-heading">
                     <h1>Our Students Feedback</h1>
@@ -20,7 +20,7 @@ const Testimonial = () => {
 
                 </div>
                 <button className='cta-btn-join'>
-                    Join Cohorts Live Classes
+                <a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17">Join Cohorts Live Classes</a>    
                 </button>
             </div>
         </section>

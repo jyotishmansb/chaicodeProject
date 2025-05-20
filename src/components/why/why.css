@@ -17,6 +17,14 @@
     display: flex;
     flex-direction: column;
     gap: 5rem;
+ 
+}
+.why-wrapper .left .box, .why-wrapper .right .box{
+    transition: all .5s ease;
+}
+
+.why-wrapper .left .box:hover , .why-wrapper .right .box:hover{
+transform: scale(1.1);
 }
 
 .why-wrapper .left .box , .why-wrapper .right .box{
@@ -73,6 +81,10 @@ width:60%
     object-fit: contain;
 }
 
+.center .icons{
+    display: flex;
+    gap: 1rem;
+}
 
 @media (max-width: 768px){
     .why-wrapper{

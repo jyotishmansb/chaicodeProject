@@ -1,5 +1,11 @@
 import './why.css'
-import hitesh from '../../assets/images/hitesh.png'
+import hitesh from '../../assets/images/hitesh.png';
+import { FiYoutube } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FiTwitter } from "react-icons/fi";
+import { CiLinkedin } from "react-icons/ci";
+import { AiOutlineDiscord } from "react-icons/ai";
 
 const Why = () => {
     return (
@@ -43,6 +49,14 @@ const Why = () => {
                             <h1>Approach</h1>
                             <p>Retired from corporate and full timr youtuber. Founder of LCO(aquired)x CTO</p>
                         </div>
+
+                        <div className="icons">
+                            <div className="youtube"><a href="https://www.youtube.com/@chaiaurcode"><FiYoutube fontSize={25}/> </a></div>
+                            <div className="linkedin"><a href="https://www.linkedin.com/in/hiteshchoudhary/?originalSubdomain=in">< CiLinkedin fontSize={25}/></a></div>
+                            <div className="twitter"><a href="https://x.com/Hiteshdotcom"><FiTwitter fontSize={25}/></a></div>
+                            <div className="github"><a href="https://github.com/hiteshchoudhary"><FaGithub fontSize={25}/></a></div>
+                           
+                        </div>
                     </div>
 
                     <div className="right">
@@ -70,7 +84,7 @@ const Why = () => {
                 </div>
 
                 <button className='cta-btn-join'>
-                    Join Cohorts Live Classes
+                  <a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17">Join Cohorts Live Classes</a>  
                 </button>
 
             </div>

@@ -1,25 +1,43 @@
-/* .udemy-heading h1{
-    text-align: center;
-    font-size: 6rem;
-    color: orange;
-} */
-/* .udemy-heading p{
-    font-size: 3rem;
-    color: orange;
-} */
+section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .udemy-container {
     display: flex;
-    gap: 10px;
+  
+    width: 60%;
+  
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-track {
+    width: 100%;
+    display: flex;
+  
+    transition: transform 2s ease;
 }
 
 .udemy-course-wrapper {
-    display: grid;
-    grid-template-columns: 65% 30%;
-    gap: 5%;
-    width: 50rem;
-    border: 1px solid rgb(145, 145, 145);
-    padding: 1rem;
+    /* width: 90rem; */
+    flex: 0 0 100%;
+    
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 5%; */
+    padding: 1rem 2rem;
     border-radius: 10px;
+    height: 350px;
+    position: relative;
 }
 
 .udemy-course-wrapper .text {
@@ -28,15 +46,18 @@
     justify-content: center;
 }
 
-.udemy-course-wrapper .text .course-title p {
-    font-size: 2.5rem;
+.udemy-course-wrapper .text .course-title {
+    font-size: 3.5rem;
     color: white;
     margin-bottom: 1rem;
+    text-transform: capitalize;
+   
 }
 
-.udemy-course-wrapper .text .course-desc p {
+.udemy-course-wrapper .text .course-desc {
     font-size: 1.5rem;
     color: white;
+    line-height: 1.8;
 }
 
 .rating-box {
@@ -49,19 +70,83 @@
     margin-top: 5rem;
 }
 
+.image {
+    /* width: 10rem; */
+    width:15rem ;
+   
+    border: 1px solid green;
+}
+
+.arrowBtn {
+    display: flex;
+    gap: 2rem;
+}
+
+.arrowNext,
+.arrowPrev {
+    margin-top: 2rem;
+ 
+    border-radius: 5px;
+    width: 10rem;
+    font-size: 2rem;
+    background: transparent;
+    background-color: orange;
+
+}
+
+.arrowNext:disabled,
+.arrowPrev:disabled {
+    background-color: #666;
+    color: #999;
+    border-color: #999;
+    cursor: not-allowed;
+}
+
+
+.slider-indicators {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  
+    padding: 2rem;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid orange;
+}
+
+.dot.active {
+    background-color: orange;
+}
+
 @media (max-width: 768px) {
+
+    .udemy-container {
+        display: flex;
+        border: 1px solid red;
+        width: 90%;
+
+    }
+
 
     .udemy-course-wrapper {
         grid-template-columns: 1fr;
-        width: 90%;
+        width: 100%;
         place-items: center;
-        
+
         margin: 0 auto;
     }
 
-    .udemy-course-wrapper .text .course-title p{
+
+
+    .udemy-course-wrapper .text .course-title p {
         font-size: 1.8rem;
     }
+
     .udemy-course-wrapper .text .course-desc p {
         font-size: 1.4rem;
     }

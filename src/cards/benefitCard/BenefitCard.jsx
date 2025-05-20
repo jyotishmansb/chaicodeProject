@@ -2,7 +2,7 @@ import './benefitCard.css';
 import image from '../../assets/images/workshop.jpg'
 
 
-const BenefitCard = () => {
+const BenefitCard = ({ title, desc, image}) => {
     return (
         <div className="benefit-box">
            
@@ -10,8 +10,8 @@ const BenefitCard = () => {
                     <img src={image} alt="" />
                 </div>
                 <div className="benefit-text">
-                    <div className="heading-text"><p>Taught by Professionals</p></div>
-                    <div className="subtext"><p>Our cohorts are being taught by top industry experts and educators</p></div>
+                    <div className="heading-text"><p>{title}</p></div>
+                    <div className="subtext"><p>{desc}</p></div>
                 </div>
             
 

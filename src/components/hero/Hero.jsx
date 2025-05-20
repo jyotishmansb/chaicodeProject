@@ -14,7 +14,7 @@ const Hero = () => {
 
                 <div className="trust-box">
                     <div className="trust-text">Trusted by 1.5M Code Learners</div>
-                    <div className="live-blinker"></div>
+                 
                 </div>
                 <div className="header-text"><h1>Consistency & Community</h1></div>
                 <div className="subtext"><h2>Unmatched Learning Experience for coding courses</h2></div>
@@ -23,26 +23,30 @@ const Hero = () => {
 
 
                 <div className="feature-box">
-                    <div className="feature">< GrGroup  className='icon'/> <p>Peer Learning</p>    </div>
-                    <div className="feature"> <FaCode className='icon'/> <p>Code Reviews</p></div>
-                    <div className="feature"><MdOutlineVideoCameraFront fontSize={24} className='icon'/><p>Virtual Hostel</p></div>
-                    <div className="feature"><FaRegComments  className='icon'/><p>Doubt Sessions</p></div>
+                    <div className="feature">< GrGroup className='icon' /> <p>Peer Learning</p>    </div>
+                    <div className="feature"> <FaCode className='icon' /> <p>Code Reviews</p></div>
+                    <div className="feature"><MdOutlineVideoCameraFront fontSize={24} className='icon' /><p>Virtual Hostel</p></div>
+                    <div className="feature"><FaRegComments className='icon' /><p>Doubt Sessions</p></div>
                     <div className="feature"><RiMoneyRupeeCircleLine className='icon' /><p>Bounties</p></div>
                 </div>
 
 
 
                 <button className="cta-btn">
-                <a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17">
+                    <a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17">
 
-                Check all Live Cohorts < FaArrowRight className='arrow'/>
-                </a>
-                    </button>
+                    <div class="live-blinker"></div>  Check all Live Cohorts < FaArrowRight className='arrow' /> 
+                      
+                           
+                            
 
-             
+                    </a>
+                </button>
+
+
             </div>
 
-<div className="section-blend"></div>
+            <div className="section-blend"></div>
 
         </section>
     )

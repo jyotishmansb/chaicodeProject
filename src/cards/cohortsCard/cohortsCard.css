@@ -1,46 +1,63 @@
 .cohortsCard-container {
     width: 35rem;
-    height: 45rem;
-    border: 1px solid rgb(62, 62, 62);
-    border-radius: 20px;
+    height: 42rem;
+    border: 6px solid rgb(29, 29, 29);
+    
     color: white;
-
-    background-color: rgb(17, 17, 17);
+    overflow: hidden;
+    background-color: rgba(11, 11, 11, 0.488);
     border-radius: 50px 0px 50px 0px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr;
+    transition: all .5s ease;
+ 
+}
+
+.cohortsCard-container:hover {
+    transform: scale(1.08);
 }
 
 .react-player-wrapper {
-    height: 20rem;
-    border-radius: 50px 0px 50px 0px;
-    overflow: hidden;
+    width: 100%;
+    height: 18rem;
+
 }
+
 
 .cohortsCard-text {
     margin-top: 1rem;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    gap: .7rem;
+    gap: .7rem; */
+    display: grid;
+    grid-template-columns:1fr;
     padding: 0 1rem;
+    
 }
 
 .cohort-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: normal;
     font-family: "Roboto", sans-serif;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     color: orange;
+   
 }
 
-.cohort-description p {
+.cohort-description {
     font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-top: .5rem;
 }
 
 .cohort-date-duration {
     display: flex;
     font-family: "Roboto", sans-serif;
-    margin-top: 1rem;
-    gap: 5rem;
+    /* margin-top: 1rem; */
+    gap: 2rem;
 
 }
 
@@ -62,28 +79,22 @@
     font-size: 1.2rem;
 }
 
-
-
 .cohort-price {
     display: flex;
     align-items: center;
-
-    gap: 1rem;
-    margin-top: 2rem;
-
-
+ gap: 1rem;
+    margin-top: 1rem;
 }
 
 .cohort-price .price {
-
-    display: flex;
+  display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 
-.cohort-price .price p,
-.cohort-price .old-price p {
+.cohort-price .price ,
+.cohort-price .old-price  {
     margin: 0;
 }
 
@@ -97,50 +108,61 @@
 }
 
 .cta-btn-buy-now {
-
+    width: 100%;
+height: 5rem;
+margin-top: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
+    font-weight: bold;
     border: 1px solid orange;
-    color: orange;
-    border-radius: 10px;
-    padding: 1rem;
+    color: rgb(0, 0, 0);
     background: transparent;
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(255, 166, 0);
+    padding: 1rem;
+
     cursor: pointer;
     border-radius: 0px 0px 50px 0px;
+
+
+
 }
 
-@media (max-width: 768px){
 
-    .cohortsCard-container{
-        width:90%;
+
+@media (max-width: 768px) {
+
+    .cohortsCard-container {
+        width: 90%;
         height: 35rem;
         border-radius: 25px 0px 25px 0px;
     }
 
-    .react-player-wrapper{
+    .react-player-wrapper {
         width: 100%;
         border-radius: 25px 0px 25px 0px;
-height: 15rem;
+        height: 15rem;
     }
-    .cohortsCard-text{
+
+    .cohortsCard-text {
         gap: .5rem;
     }
 
-    .cohort-title{
+    .cohort-title {
         font-size: 1.2rem;
         margin-bottom: 0;
     }
-.cohort-description p{
-    font-size: 1.2rem;
-}
-    .cohort-price .price{
+
+    .cohort-description p {
+        font-size: 1.2rem;
+    }
+
+    .cohort-price .price {
         font-size: 2rem;
     }
 
-    .cohort-date-duration{
+    .cohort-date-duration {
         margin-top: 0;
     }
 
@@ -150,12 +172,14 @@ height: 15rem;
 
     .cta-btn-buy-now {
 
-       margin-top: 1rem;
+        margin-top: 1rem;
         font-size: 2rem;
-       
+
         padding: .5rem;
-        
+
         border-radius: 0px 0px 30px 0px;
+
+        
     }
 
 }

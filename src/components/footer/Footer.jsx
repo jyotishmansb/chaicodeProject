@@ -6,6 +6,7 @@ import { FiTwitter } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineDiscord } from "react-icons/ai";
 import logo from '../../assets/images/chaicode-white.png'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -17,20 +18,21 @@ const Footer = () => {
                         <div className="logo"><img src={logo} alt="" /></div>
                         <div className="text"><p>Home for programmers</p></div>
                         <div className="icons">
-                            <div className="youtube"><FiYoutube fontSize={25}/> </div>
+                            <div className="youtube"><a href="https://www.youtube.com/@chaiaurcode"></a>
+                            <FiYoutube fontSize={25}/> </div>
                             <div className="insta"><FaInstagram  fontSize={25}/></div>
-                            <div className="linkedin">< CiLinkedin fontSize={25}/></div>
-                            <div className="twitter"><FiTwitter fontSize={25}/></div>
-                            <div className="github"><FaGithub fontSize={25}/></div>
-                            <div className="discord">< AiOutlineDiscord fontSize={25}/></div>
+                            <div className="linkedin"><a href="https://www.linkedin.com/in/hiteshchoudhary/?originalSubdomain=in"></a>< CiLinkedin fontSize={25}/></div>
+                            <div className="twitter"><a href="https://x.com/Hiteshdotcom"></a><FiTwitter fontSize={25}/></div>
+                            <div className="github"><a href="https://github.com/hiteshchoudhary"></a><FaGithub fontSize={25}/></div>
+                            <div className="discord"><a href="https://discord.com/invite/WDrH3zuWFb"></a>< AiOutlineDiscord fontSize={25}/></div>
                         </div>
                         <div className="copyright-text"><p>© 2025 ChaiCode. All rights reserved.</p></div>
                     </div>
                     <div className="column">
                         <h2>Products</h2>
                         <ul>
-                            <li>Courses</li>
-                            <li>Cohort</li>
+                            <li><a href="https://courses.chaicode.com/learn">Courses</a> </li>
+                            <li><a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17">Cohort</a> </li>
                             <li>Coding Hero</li>
                             <li>Free API</li>
                             <li>Masterji</li>
@@ -40,11 +42,11 @@ const Footer = () => {
                     <div className="column">
                         <h2>Resources</h2>
                         <ul>
-                            <li>Docs</li>
-                            <li>Privacy Policy</li>
-                            <li>Terms of service</li>
-                            <li>Pricing Policy</li>
-                            <li>Refund Policy</li>
+                            <li><a href="https://docs.chaicode.com/">Docs</a> </li>
+                            <li ><Link to='/privacy'> Privacy Policy</Link></li>
+                            <li><Link to='/tos'> Terms of service</Link></li>
+                            <li><Link to='/pricing'>Pricing Policy</Link> </li>
+                            <li> <Link to='/refund'>Refund Policy</Link> </li>
                             </ul>
                     </div>
 

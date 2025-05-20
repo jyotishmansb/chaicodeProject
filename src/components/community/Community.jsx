@@ -19,8 +19,12 @@ const Community = () => {
 
                         </div>
                         <div className="discord-box">
-                            <p>80,000 active coders <br></br>in Discord</p>
+                        <a href="https://discord.com/invite/WDrH3zuWFb" >
+                          80,000 active coders in Discord
+                        
+                     </a>
                         </div>
+                       
 
                     </div>
 

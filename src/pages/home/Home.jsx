@@ -14,9 +14,30 @@ import AppDownload from '../../components/appDownload/AppDownload';
 import Footer from '../../components/footer/Footer';
 import Company from '../../components/company/Company';
 import Collaborate from "../../components/collaborate/Collaborate";
-
-
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 const Home = () => {
+    const { hash } = useLocation();
+
+    useEffect(() => {
+      if (hash) {
+        // remove the '#' and find the element
+        const id = hash.replace('#', '');
+        const el = document.getElementById(id);
+        if (el) {
+          // tiny delay ensures the section is rendered
+          setTimeout(
+            () =>
+              el.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+              }),
+            50
+          );
+        }
+      }
+    }, [hash]);
+
     return (
         <div className="home">
 
@@ -49,14 +70,6 @@ const Home = () => {
             <div className="divider"></div>
             <Collaborate />
             <div className="divider"></div>
-
-
-
-
-
-
-
-
 
 
         </div>

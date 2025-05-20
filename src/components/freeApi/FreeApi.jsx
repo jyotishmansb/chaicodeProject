@@ -58,7 +58,7 @@ const FreeApi = () => {
                 </div>
 
                 <div className="freeApi-btn">
-                    <p>Check freeAPI Docs</p>
+                  <a href="https://freeapi.hashnode.space/api-guide/apireference/getARandomQuote"> Check freeAPI Docs</a> 
                 </div>
 
             </div>

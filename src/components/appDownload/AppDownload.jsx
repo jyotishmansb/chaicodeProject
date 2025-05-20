@@ -43,20 +43,23 @@ const AppDownload = () => {
 
 
                         <div className="download-buttons">
-                            <button className="download-button">
-                                <span className="button-icon"><MdOutlineFileDownload size={25} /></span>
+                            <button className="download-button"><a href="https://apps.apple.com/in/app/chaicode/id6504993143"> <span className="button-icon"><MdOutlineFileDownload size={25} /></span>
                                 <div className="button-text">
                                     <div className="button-small">Download on the</div>
                                     <div className="button-large">App Store</div>
-                                </div>
+                                </div></a>
+                               
                             </button>
 
                             <button className="download-button">
+                                <a href="https://play.google.com/store/apps/details?id=com.chaicode.courses&pcampaignid=web_share">
                                 <span className="button-icon"><MdOutlineFileDownload size={25} /></span>
                                 <div className="button-text">
                                     <div className="button-small">Get it on</div>
                                     <div className="button-large">Google Play</div>
                                 </div>
+                                </a>
+                               
                             </button>
                         </div>
 

@@ -34,10 +34,13 @@
 }
 .freeApi-btn{
     width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     margin-top: 7rem;
     border: 1px solid orange;
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
     border-radius: 20px;
     font-size: 2.5rem;
     color: orange;

@@ -3,15 +3,15 @@ import './cohortsCard.css';
 import { SlCalender } from "react-icons/sl";
 import { MdAccessTime } from "react-icons/md";
 
-const CohortsCard = ({ youtubeUrl, title, desc, date, duration, price, oldPrice }) => {
+const CohortsCard = ({ youtubeUrl, title, desc, date, duration, price, oldPrice, link }) => {
     return (
-        <div className="cohortsCard-container">
+        <article className="cohortsCard-container">
 
             <div className="react-player-wrapper">
                 <ReactPlayer className="react-player"
                     url={youtubeUrl}
 
-
+                    light
                     playing={false}
                     muted={false}
                     controls={false}
@@ -28,31 +28,24 @@ const CohortsCard = ({ youtubeUrl, title, desc, date, duration, price, oldPrice 
                         }
                     }}
                 >
-
                 </ReactPlayer>
             </div>
             <div className="cohortsCard-text">
-
-
-                <div className="cohort-title"><h1>{title}</h1></div>
-                <div className="cohort-description"><p>{desc}</p></div>
+                <h2 className="cohort-title">{title}</h2>
+                <p className="cohort-description">{desc}</p>
                 <div className="cohort-date-duration">
-                    <div className="start-date"><SlCalender /><p>starts {date}</p></div>
-                    <div className="duration"> <MdAccessTime />{duration}</div>
+                    <div className="start-date"><SlCalender /><span>starts {date}</span></div>
+                    <div className="duration"> <MdAccessTime /><span>{duration}</span></div>
                 </div>
-
-
                 <div className="cohort-price">
-                    <div className="price"><span>₹</span><p>{price}</p></div>
-                    <div className="old-price"><span>₹</span><p>{oldPrice}</p></div>
+                    <div className="price"><span>₹</span>{price}</div>
+                    <div className="old-price"><span>₹</span>{oldPrice}</div>
                 </div>
-
-                <button className="cta-btn-buy-now">
-                    Buy Now
-                </button>
-
             </div>
-        </div>
+
+            <a className="cta-btn-buy-now" href={link}>  Buy Now</a>
+
+        </article>
     )
 }
 
