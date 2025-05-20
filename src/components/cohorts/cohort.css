@@ -1,6 +1,3 @@
-
-
-
 .cohorts-section-container{
    
    width: 80%;
@@ -15,6 +12,13 @@
 }
 
 @media (max-width: 768px) {
+
+    .cohorts-section-container{
+   
+        width: 100%;
+        
+       
+     }
     .cohorts-wrapper{
         display: grid;
         place-items: center;

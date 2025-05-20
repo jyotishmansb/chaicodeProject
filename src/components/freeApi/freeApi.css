@@ -76,8 +76,8 @@
     }
     .freeApi-btn{
         margin-top: 1rem;
-        padding: 1rem 2rem;
-        
+        padding: .8rem 1.5rem;
+        font-size: 1.6rem;
     }
 
     .freeApi-left{

@@ -34,11 +34,11 @@
     gap: 2rem;
     
 }
-.appdownload-right .heading h2{
+.appdownload-right .heading {
     color: orange;
     font-size: 4rem;
 }
-.appdownload-right .desc p{
+.appdownload-right .desc {
     font-size: 2rem;
     line-height: 1.5;
     color: white;
@@ -97,6 +97,9 @@
             gap: 1rem;
         
         }
+        .appdownload-right{
+            gap: 1rem;
+        }
 
         .download-buttons{
             display: flex;
@@ -105,13 +108,19 @@
             justify-content: center;
             gap: 1rem;
             }
+            .download-button{
+               
+                padding: .5rem 2rem;
+            }
         
-            .appdownload-right .heading h2{
-                font-size: 2rem;
+            .appdownload-right .heading{
+                font-size: 2.2rem;
                 text-align: center;
             }
-            .appdownload-right .desc p{
-                font-size: 1.2rem;
+            .appdownload-right .desc{
+                font-size: 1.5rem;
             }
-
+.features{
+    margin: 0 auto;
+}
     }

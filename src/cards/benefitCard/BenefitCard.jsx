@@ -10,8 +10,8 @@ const BenefitCard = ({ title, desc, image}) => {
                     <img src={image} alt="" />
                 </div>
                 <div className="benefit-text">
-                    <div className="heading-text"><p>{title}</p></div>
-                    <div className="subtext"><p>{desc}</p></div>
+                    <div className="benefit-heading-text"><p>{title}</p></div>
+                    <div className="benefit-subtext"><p>{desc}</p></div>
                 </div>
             
 

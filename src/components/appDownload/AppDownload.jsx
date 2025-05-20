@@ -16,12 +16,12 @@ const AppDownload = () => {
 
 
                     <div className="appdownload-right">
-                        <div className="heading"><h2>Learn On the Go</h2></div>
-                        <div className="desc"><p>Take your coding journey anywhere
+                        <h2  className="heading">Learn On the Go</h2>
+                        < p className='desc'>Take your coding journey anywhere
                             with the ChaiCode mobile app. Access courses,
                             join live sessions, and connect with the community - all from your
                             pocket.</p>
-                        </div>
+                        
 
 
                         <div className="features">

@@ -83,9 +83,8 @@ const Why = () => {
  
                 </div>
 
-                <button className='cta-btn-join'>
-                  <a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17">Join Cohorts Live Classes</a>  
-                </button>
+                  <a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17" className='cta-btn-join'>Join Cohorts Live Classes </a>  
+               
 
             </div>
 
