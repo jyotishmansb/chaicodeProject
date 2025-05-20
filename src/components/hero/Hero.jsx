@@ -32,8 +32,7 @@ const Hero = () => {
 
 
 
-                <button className="cta-btn">
-                    <a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17">
+                    <a  href="https://courses.chaicode.com/learn/view-all?show=batch&type=17" className="cta-btn">
 
                         <div class="live-blinker"></div>  Check all Live Cohorts < FaArrowRight className='arrow' />
 
@@ -41,7 +40,7 @@ const Hero = () => {
 
 
                     </a>
-                </button>
+             
 
 
             </div>

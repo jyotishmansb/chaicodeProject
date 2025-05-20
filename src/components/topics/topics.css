@@ -4,14 +4,7 @@
     gap: 3rem;
 }
 
-.topics-wrapper a{
-    color: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.topics-wrapper .topics-box{ 
+.topics-wrapper a{ 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,9 +26,10 @@
 @media (max-width: 768px) {
     .topics-wrapper{
         grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
     }
 
-    .topics-wrapper .topics-box{ 
+    .topics-wrapper a{ 
        
         width: 10rem;
         height: 4rem;
@@ -43,7 +37,7 @@
        
         border-radius: 20px 0 20px 0;
       
-        font-size: 1.2rem;
+        font-size: 1.5rem;
        
     }
 

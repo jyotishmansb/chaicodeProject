@@ -1,5 +1,6 @@
 import './community.css'
 import image from '../../assets/images/vc.png'
+import { FaArrowRight } from "react-icons/fa6";
 
 const Community = () => {
     return (
@@ -9,22 +10,19 @@ const Community = () => {
 
                 <div className="community-wrapper">
                     <div className="community-left">
-                        <div className="community-heading">
-                            <h1>Community</h1>
-                        </div>
-                        <div className="community-text">
 
-                            <p>Join Our <br />
-                                Community<br></br> where Coder thrives</p>
+                        <h1 className="community-heading">Community</h1>
+                        <p className="community-text">Join Our <br />
+                            Community<br></br> where Coder thrives</p>
 
-                        </div>
-                        <div className="discord-box">
-                        <a href="https://discord.com/invite/WDrH3zuWFb" >
-                          80,000 active coders in Discord
+
                         
-                     </a>
-                        </div>
-                       
+                            <a href="https://discord.com/invite/WDrH3zuWFb"  className="discord-box">
+                                80,000 active coders in Discord < FaArrowRight className='arrow' />
+
+                            </a>
+                        
+
 
                     </div>
 

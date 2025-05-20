@@ -15,22 +15,29 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5rem;
+    gap: 2rem;
+
 }
 
-.freeApi-left .heading h2 {
+.freeApi-left .heading{
     font-size: 3.5rem;
     color: white;
 }
 
-.freeApi-left .para p {
+.freeApi-left .para{
     color: white;
     font-size: 2rem;
 }
 
-.freeApi-right .ytVideo-container {
+
+.freeApi-right .freeApi-ytVideo-container {
+   
     width: 65rem;
     height: 45rem;
+    border: 12px solid;
+  border-color: rgba(167, 167, 167, 0.241);
+  
+    
 }
 .freeApi-btn{
     width: fit-content;
@@ -51,22 +58,26 @@
     .freeApi-wrapper{
         display: flex;
         flex-direction: column;
-
     }
-    .freeApi-right .ytVideo-container {
+    
+
+    .freeApi-right .freeApi-ytVideo-container {
+        border: 8px solid;
         width: 100%;
-        height: 20rem;
+        height: 16rem;
     }
 
-    .freeApi-left .heading h2 {
+    .freeApi-left .heading  {
         font-size: 1.6rem;
     }
-    .freeApi-left .para p {
+    .freeApi-left .para {
         
         font-size: 1.5rem;
     }
     .freeApi-btn{
         margin-top: 1rem;
+        padding: 1rem 2rem;
+        
     }
 
     .freeApi-left{

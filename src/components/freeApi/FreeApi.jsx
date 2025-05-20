@@ -4,28 +4,28 @@ const FreeApi = () => {
     return (
         <section className='section-freeApi'>
             <div className="container-freeApi">
-                <div className="section-heading">
-                    <h1>Free API - OpenSource</h1>
-                </div>
+               <div className="section-heading">
+               <h1>Free API - OpenSource</h1>
+               </div>
+              
+             
 
                 <div className="freeApi-wrapper">
 
                     <div className="freeApi-left">
-                        <div className="heading">
-                            <h2>UnLocl your potential with our API hub</h2>
-                        </div>
-                        <div className="para">
-                            <p>
+                      
+                            <h2 className="heading">UnLock your potential with our API hub</h2>
+                            <p className="para">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis,
                                 dolores aliquam tempora ipsa sapiente nihil eaque laborum impedit velit
                                 molestiae unde ullam commodi eius laboriosam dolor facere molestias mollitia
                                 temporibus libero ipsam esse sit! Earum reprehenderit dolorem consectetur adipisci autem!
                             </p>
-                        </div>
+                       
                     </div>
 
                     <div className="freeApi-right">
-                        <div className="ytVideo-container">
+                        <div className="freeApi-ytVideo-container">
                             <ReactPlayer className="react-player"
                                 url="https://youtu.be/VNb_LawBBWU"
 
@@ -57,9 +57,9 @@ const FreeApi = () => {
 
                 </div>
 
-                <div className="freeApi-btn">
-                  <a href="https://freeapi.hashnode.space/api-guide/apireference/getARandomQuote"> Check freeAPI Docs</a> 
-                </div>
+              
+                  <a href="https://freeapi.hashnode.space/api-guide/apireference/getARandomQuote" className="freeApi-btn"> Check freeAPI Docs</a> 
+               
 
             </div>
 

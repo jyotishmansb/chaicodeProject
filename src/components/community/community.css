@@ -10,24 +10,14 @@
     display: flex;
     justify-content: start;
     gap: 5rem;
-
 }
 
 .community-heading {
-
-    color: orange;
+ color: orange;
     text-align: center;
-
-}
-
-.community-heading h1 {
     font-size: 8rem;
 
 }
-
-/* .community-right {
-    border: 1px solid red;
-} */
 
 .community-image {
     width: 45rem;
@@ -38,14 +28,12 @@
 }
 
 .community-left {
-
     display: flex;
     flex-direction: column;
-
-    gap: 3rem;
+    gap: 2.5rem;
 }
 
-.community-text p {
+.community-text {
     font-size: 5rem;
     color: white;
 }
@@ -54,18 +42,23 @@
     padding: 1rem;
 }
 
-
 .discord-box {
-    /* margin: 0 auto; */
-    /* margin-top: 1rem; */
-
+display: block;
     border: 1px solid orange;
-    padding: 1rem 1rem;
+    padding: 2rem 1.5rem;
     border-radius: 20px;
     font-size: 2.5rem;
     color: orange;
     text-align: center;
     line-height: 1.3;
+    transition: all .5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.community-left .discord-box:hover{
+   transform: translateY(-5px);
 }
 
 @media (max-width: 768px) {
@@ -77,51 +70,39 @@
         gap: 1rem;
     
     }
+    .community-left {
+        gap: 1rem;
+    }
 
-.discord-box{
-    font-size: 1.5rem;
-
-}
-
-.community-text p {
-    font-size: 1.5rem;
-    color: white;
-}
-
-.community-heading h1 {
+.community-text {
+    text-align: center;
     font-size: 2rem;
-    text-align: center;
-
+    color: white;
+    
 }
-.community-heading {
+
+.community-heading{
+    font-size: 3.2rem;
     text-align: center;
-    margin: 0 auto;
+  
+
 }
 
 .community-image {
     width: 25rem;
     height: 25rem;
-
 }
 
  .community-left .discord-box {
    border: 1px solid orange;
-    padding: 0rem 1rem ;
+    padding: 1.1rem 1rem ;
     border-radius: 15px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
    display: flex;
    align-items: center;
    justify-content: center;
-  
     transition: all .5s ease;
-   
-    
+      
 }
-.community-left .discord-box:hover{
-
-    background-color: red;
-    
-}
-
 
 }
